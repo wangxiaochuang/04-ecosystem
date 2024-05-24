@@ -18,6 +18,7 @@ tracing-opentelemetry = "0.23.0"
 [dev-dependencies]
 axum = { version = "0.7.5", features = ["http2", "query", "tracing"] }
 derive_builder = "0.20.0"
+derive_more = "0.99.17"
 serde = "1.0.202"
 serde_json = "1.0.117"
 tokio = { version = "1.37.0", features = ["rt", "rt-multi-thread", "macros"] }
