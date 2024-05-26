@@ -1,1 +1,12 @@
+### index handler
 GET http://localhost:8080/
+
+
+### update handler
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+    "age": 42,
+    "skills": ["Java", "Web Development"]
+}
