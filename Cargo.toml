@@ -20,6 +20,7 @@ tracing-opentelemetry = "0.23.0"
 
 [dev-dependencies]
 axum = { version = "0.7.5", features = ["http2", "query", "tracing"] }
+bytes = "1.6.0"
 derive_builder = "0.20.0"
 derive_more = "0.99.17"
 http = "1.1.0"
